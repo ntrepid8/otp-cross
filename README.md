@@ -28,7 +28,7 @@ Then follow the instructions below
     > wget http://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.0.tar.gz
     > tar xf ncurses-6.0.tar.gz
     > cd ncurses-6.0
-    > ./configure --host=arm-linux-gnueabi --prefix=$HOME/arm --without-ada --without-cxx --without-cxx-binding --without-manpages --without-progs --without-tests 
+    > ./configure --host=arm-linux-gnueabi --prefix=$HOME/arm --without-ada --without-cxx --without-cxx-binding --without-manpages --without-progs --without-tests CPPFLAGS="-P"
     > make
     > make install
 
