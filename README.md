@@ -21,7 +21,7 @@ Then follow the instructions below
     > unset CC  # thanks benoitc
 
 ## openssl
-    > wget http://openssl.org/source/openssl-1.0.2f.tar.gz
+    > wget http://openssl.org/source/openssl-1.0.2j.tar.gz
     > tar xf openssl-1.0.2f.tar.gz
     > export cross=arm-linux-gnueabi-
     > cd openssl-1.0.2f
