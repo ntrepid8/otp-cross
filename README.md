@@ -30,12 +30,21 @@ Then follow the instructions below
     > make install
 
 ## ncurses
+
+arm6
+```
     > wget http://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.0.tar.gz
     > tar xf ncurses-6.0.tar.gz
     > cd ncurses-6.0
-    > ./configure --host=arm-linux-gnueabi --prefix=$HOME/arm --without-ada --without-cxx --without-cxx-binding --without-manpages --without-progs --without-tests CPPFLAGS="-P"
+    > ./configure --host=arm-linux-gnueabi --prefix=$HOME/arm --without-ada --without-cxx --without-cxx-binding --without-manpages --without-progs --without-tests
     > make
     > make install
+```
+
+arm7
+```
+$ ./configure --host=armv7-unknown-linux-musleabihf --prefix=$HOME/arm --without-ada --without-cxx --without-cxx-binding --without-manpages --without-progs --without-tests CPPFLAGS="-P"
+```
 
 ## otp
     > wget http://www.erlang.org/download/otp_src_18.2.1.tar.gz
