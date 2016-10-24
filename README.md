@@ -1,5 +1,8 @@
 # How to cross compile Erlang OTP including crypto and ncurses
 
+Forked from [tonyrog/otp-cross](https://github.com/tonyrog/otp-cross) with updates for
+building for a `armv7-unknown-linux-musleabihf` target.
+
 First get install a cross compiler. Here I will use the
 arm-linux-gnueabi.
 
