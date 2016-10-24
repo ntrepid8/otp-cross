@@ -54,7 +54,7 @@ When building the tar file we remove some apps in order to reduce
 the size of the image. We could probably add --exclude=erlang/lib/*/src*
 as well.
 
-    tar czf erlang.tgz --exclude=erlang/lib/cos* --exclude=erlang/lib/common_test* --exclude=erlang/lib/percept* --exclude=erlang/lib/public_key* --exclude=erlang/lib/eunit* --exclude=erlang/lib/gs* --exclude=erlang/lib/ic* --exclude=erlang/lib/jinterface* --exclude=erlang/lib/megaco* --exclude=erlang/lib/test_server* --exclude=erlang/lib/dialyzer* --exclude=erlang/lib/observer* --exclude=erlang/lib/diameter* --exclude=erlang/lib/orber* --exclude=erlang/lib/typer* --exclude=erlang/lib/edoc* --exclude=erlang/lib/ose* --exclude=erlang/lib/webtool* --exclude=erlang/lib/eldap* --exclude=erlang/lib/wx* --exclude=erlang/lib/erl_docgen* --exclude=erlang/lib/otp_mibs* ./erlang
+    tar czf erlang.tgz --exclude=erlang/lib/cos* --exclude=erlang/lib/common_test* --exclude=erlang/lib/percept* --exclude=erlang/lib/eunit* --exclude=erlang/lib/gs* --exclude=erlang/lib/ic* --exclude=erlang/lib/jinterface* --exclude=erlang/lib/megaco* --exclude=erlang/lib/test_server* --exclude=erlang/lib/dialyzer* --exclude=erlang/lib/observer* --exclude=erlang/lib/diameter* --exclude=erlang/lib/orber* --exclude=erlang/lib/typer* --exclude=erlang/lib/edoc* --exclude=erlang/lib/ose* --exclude=erlang/lib/webtool* --exclude=erlang/lib/eldap* --exclude=erlang/lib/wx* --exclude=erlang/lib/erl_docgen* --exclude=erlang/lib/otp_mibs* ./erlang
 
 Here is how to install the erlang.tgz on the target system
 
